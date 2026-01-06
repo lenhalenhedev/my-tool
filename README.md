@@ -1,2 +1,2 @@
-# my-bot
-my bot🤑
+# bot
+this a bot 
