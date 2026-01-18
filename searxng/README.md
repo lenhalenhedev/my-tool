@@ -132,8 +132,10 @@ rm -r venv
 Anyway, the path to the config file is /searxng/searx/
 if android (termux)
 /data/data/com.termux/files/home/searxng/searx/
-***Don't expect it to be like Google, Bing, or DuckDuck Go.***
-I just customized it a bit for easier use, and of course it won't be perfect :v. If you see comments in settings.local.yml, it's because of GPT chat (only the engines).
+
+Don't expect it to be like Google, Bing, or DuckDuck Go.
+
+I just customized it a bit for easier use, and of course it won't be perfect :v.
 ----------------
 License
 
