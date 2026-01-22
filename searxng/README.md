@@ -59,9 +59,9 @@ IP reputation issues
 
 Requirements
 
-Python ≥ 3.10
+Python ≥ 3.10 (I am using Python 3.12)
 
-Linux or Android (Termux)
+Linux or Android (Termux) or linux and Windows (I'm not sure it will work, but I think you know how to fix it, right?)
 
 Git
 
