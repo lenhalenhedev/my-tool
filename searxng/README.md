@@ -71,27 +71,36 @@ Git
 
 Quick Start
 
-download in: https://github.com/lenhalenhedev/my-tool/releases/tag/searxng
+download in: https://github.com/lenhalenhedev/toolbox/releases/tag/searxngV1.1
 
 and 
-
-tar -xzf searxng.tar.gz
-cd searxng
+``7z x file.7z``
+``cd searxng``
 
 note: sorry😶 this files too big, I cannot upload to this folder. 
 
 (Recommended) Virtual environment
 
-python -m venv venv
-source venv/bin/activate
+``python -m venv venv
+source venv/bin/activate``
 
 Install dependencies:
 
-pip install -r requirements.txt
+``pip install -r requirements.txt``
 
 Run:
-./searx.sh
-
+linux/termux:
+``./searxng-manager-termux+linux+windown.py``
+Windows:
+``py searxng-manager-termux+linux+windown.py``
+or
+``python searxng-manager-termux+linux+windown.py``
+and this show
+``usage:
+  start | stop | restart | status | watchdog``
+example:
+``python searxng-manager-termux+linux+windown.py start``
+to start
 Open:
 
 http://127.0.0.1:8888
@@ -129,14 +138,15 @@ If you are not on Android (termux), do not commit the virtual environment:
 rm -r venv
 
 ----------------
-Anyway, the path to the config file is /searxng/searx/
+Anyway, the path to the config file is /searxng/searx/setting-local.yml
 if android (termux)
-/data/data/com.termux/files/home/searxng/searx/
+/data/data/com.termux/files/home/searxng/searx/setting-local.yml
 
 Don't expect it to be like Google, Bing, or DuckDuck Go.
 
 I just customized it a bit for easier use, and of course it won't be perfect :v.
 ----------------
+time: 2026/22/1
 License
 
 GNU Affero General Public License v3.0
